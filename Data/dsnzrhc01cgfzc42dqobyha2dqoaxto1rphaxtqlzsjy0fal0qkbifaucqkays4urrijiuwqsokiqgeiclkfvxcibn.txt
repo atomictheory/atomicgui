@@ -1,1 +1,1 @@
-{"e7e6":{"comment":"..."}}
+{"e7e6":{"comment":"...","fen_after":"rnbqkb1r/pppp1ppp/4p2n/8/8/2N4P/PPPPPPP1/R1BQKBNR w KQkq -","visited":1}}
