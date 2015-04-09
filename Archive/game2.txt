@@ -1,0 +1,17 @@
+$self->{moves} = [
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq -',
+                     'full_algeb' => 'g1f3'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/ppppp1pp/5p2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq -',
+                     'full_algeb' => 'f7f6'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/ppppp1pp/5p2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/ppppp1pp/5p2/8/8/2N2N2/PPPPPPPP/R1BQKB1R b KQkq -',
+                     'full_algeb' => 'b1c3'
+                   }
+                 ];

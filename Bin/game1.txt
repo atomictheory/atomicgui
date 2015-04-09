@@ -1,0 +1,108 @@
+$self->{moves} = [
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq -',
+                     'full_algeb' => 'g1f3'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/ppppp1pp/5p2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq -',
+                     'full_algeb' => 'f7f6'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/ppppp1pp/5p2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/ppppp1pp/5p2/8/8/4PN2/PPPP1PPP/RNBQKB1R b KQkq -',
+                     'full_algeb' => 'e2e3'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/ppppp1pp/5p2/8/8/4PN2/PPPP1PPP/RNBQKB1R b KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/pppp2pp/4pp2/8/8/4PN2/PPPP1PPP/RNBQKB1R w KQkq -',
+                     'full_algeb' => 'e7e6'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pppp2pp/4pp2/8/8/4PN2/PPPP1PPP/RNBQKB1R w KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/pppp2pp/4pp2/8/3N4/4P3/PPPP1PPP/RNBQKB1R b KQkq -',
+                     'full_algeb' => 'f3d4'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pppp2pp/4pp2/8/3N4/4P3/PPPP1PPP/RNBQKB1R b KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/pp1p2pp/2p1pp2/8/3N4/4P3/PPPP1PPP/RNBQKB1R w KQkq -',
+                     'full_algeb' => 'c7c6'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pp1p2pp/2p1pp2/8/3N4/4P3/PPPP1PPP/RNBQKB1R w KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/pp1p2pp/2p1pp2/1N6/8/4P3/PPPP1PPP/RNBQKB1R b KQkq -',
+                     'full_algeb' => 'd4b5'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pp1p2pp/2p1pp2/1N6/8/4P3/PPPP1PPP/RNBQKB1R b KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/pp1p2pp/4pp2/8/8/4P3/PPPP1PPP/RNBQKB1R w KQkq -',
+                     'full_algeb' => 'c6b5'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pp1p2pp/4pp2/8/8/4P3/PPPP1PPP/RNBQKB1R w KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/pp1p2pp/4pp2/7Q/8/4P3/PPPP1PPP/RNB1KB1R b KQkq -',
+                     'full_algeb' => 'd1h5'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pp1p2pp/4pp2/7Q/8/4P3/PPPP1PPP/RNB1KB1R b KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/pp1p3p/4ppp1/7Q/8/4P3/PPPP1PPP/RNB1KB1R w KQkq -',
+                     'full_algeb' => 'g7g6'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pp1p3p/4ppp1/7Q/8/4P3/PPPP1PPP/RNB1KB1R w KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/pp1p3p/4ppp1/1Q6/8/4P3/PPPP1PPP/RNB1KB1R b KQkq -',
+                     'full_algeb' => 'h5b5'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pp1p3p/4ppp1/1Q6/8/4P3/PPPP1PPP/RNB1KB1R b KQkq -',
+                     'fen_after_move' => 'r1bqkbnr/pp1p3p/2n1ppp1/1Q6/8/4P3/PPPP1PPP/RNB1KB1R w KQkq -',
+                     'full_algeb' => 'b8c6'
+                   },
+                   {
+                     'fen_before_move' => 'r1bqkbnr/pp1p3p/2n1ppp1/1Q6/8/4P3/PPPP1PPP/RNB1KB1R w KQkq -',
+                     'fen_after_move' => 'r1bqkbnr/pp1p3p/1Qn1ppp1/8/8/4P3/PPPP1PPP/RNB1KB1R b KQkq -',
+                     'full_algeb' => 'b5b6'
+                   },
+                   {
+                     'fen_before_move' => 'r1bqkbnr/pp1p3p/1Qn1ppp1/8/8/4P3/PPPP1PPP/RNB1KB1R b KQkq -',
+                     'fen_after_move' => 'r1bqkbnr/1p1p3p/4ppp1/8/8/4P3/PPPP1PPP/RNB1KB1R w KQkq -',
+                     'full_algeb' => 'a7b6'
+                   },
+                   {
+                     'fen_before_move' => 'r1bqkbnr/1p1p3p/4ppp1/8/8/4P3/PPPP1PPP/RNB1KB1R w KQkq -',
+                     'fen_after_move' => 'r1bqkbnr/1p1p3p/4ppp1/1B6/8/4P3/PPPP1PPP/RNB1K2R b KQkq -',
+                     'full_algeb' => 'f1b5'
+                   },
+                   {
+                     'fen_before_move' => 'r1bqkbnr/1p1p3p/4ppp1/1B6/8/4P3/PPPP1PPP/RNB1K2R b KQkq -',
+                     'fen_after_move' => 'r1bq1bnr/1p1p1k1p/4ppp1/1B6/8/4P3/PPPP1PPP/RNB1K2R w KQ -',
+                     'full_algeb' => 'e8f7'
+                   },
+                   {
+                     'fen_before_move' => 'r1bq1bnr/1p1p1k1p/4ppp1/1B6/8/4P3/PPPP1PPP/RNB1K2R w KQ -',
+                     'fen_after_move' => 'r4bnr/1p3k1p/4ppp1/8/8/4P3/PPPP1PPP/RNB1K2R b KQ -',
+                     'full_algeb' => 'b5d7'
+                   },
+                   {
+                     'fen_before_move' => 'r4bnr/1p3k1p/4ppp1/8/8/4P3/PPPP1PPP/RNB1K2R b KQ -',
+                     'fen_after_move' => '3r1bnr/1p3k1p/4ppp1/8/8/4P3/PPPP1PPP/RNB1K2R w KQ -',
+                     'full_algeb' => 'a8d8'
+                   },
+                   {
+                     'fen_before_move' => '3r1bnr/1p3k1p/4ppp1/8/8/4P3/PPPP1PPP/RNB1K2R w KQ -',
+                     'fen_after_move' => '3r1bnr/1p3k1p/4ppp1/8/3P4/4P3/PPP2PPP/RNB1K2R b KQ d3',
+                     'full_algeb' => 'd2d4'
+                   },
+                   {
+                     'fen_before_move' => '3r1bnr/1p3k1p/4ppp1/8/3P4/4P3/PPP2PPP/RNB1K2R b KQ d3',
+                     'fen_after_move' => '3r1bnr/1p3k1p/5pp1/4p3/3P4/4P3/PPP2PPP/RNB1K2R w KQ -',
+                     'full_algeb' => 'e6e5'
+                   },
+                   {
+                     'fen_before_move' => '3r1bnr/1p3k1p/5pp1/4p3/3P4/4P3/PPP2PPP/RNB1K2R w KQ -',
+                     'fen_after_move' => '3r1bnr/1p3k1p/5pp1/4p3/3P4/4P3/PPPB1PPP/RN2K2R b KQ -',
+                     'full_algeb' => 'c1d2'
+                   }
+                 ];
+$self->{flip} = 0;

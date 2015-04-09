@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/vtfmtQdk"]
+[Date "2015.02.08"]
+[White "atomice"]
+[Black "ImprovingSkull"]
+[Result "0-1"]
+[WhiteElo "2256"]
+[BlackElo "2046"]
+[PlyCount "60"]
+[Variant "Atomic"]
+[TimeControl "900+30"]
+[ECO "?"]
+[Opening "?"]
+[Annotator "lichess.org"]
+
+1. Nf3 f6 2. e3 e6 3. Nd4 f5 4. Nb5 Qh4 5. g3 Qc4 6. Bxc4 Nc6 7. b4 Nf6 8. f3 Ne5 9. d4 Nc4 10. e4 Nb2 11. Qe2 Nd3+ 12. Kf1 f4 13. c3 a5 14. d5 e5 15. d6 cxd6 16. a4 d5 17. g4 h5 18. Qa2 hxg4 19. h3 Nh5 20. Rg1 Ng3+ 21. Bxf4 g5 22. f4 exf4 23. Nd2 Bc5 24. bxc5 Rf8+ 25. Nf3 g4 26. Qa3 Nb4 27. Ke1 dxe4 28. Qb3 Rf1+ 29. Kd2 Rf2+ 30. Ke3 Nd5+ { White resigns } 0-1

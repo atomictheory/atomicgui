@@ -1,0 +1,38 @@
+$self->{moves} = [
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq -',
+                     'full_algeb' => 'g1f3'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/ppppp1pp/5p2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq -',
+                     'full_algeb' => 'f7f6'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/ppppp1pp/5p2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/ppppp1pp/5p2/8/8/4PN2/PPPP1PPP/RNBQKB1R b KQkq -',
+                     'full_algeb' => 'e2e3'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/ppppp1pp/5p2/8/8/4PN2/PPPP1PPP/RNBQKB1R b KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/pppp2pp/4pp2/8/8/4PN2/PPPP1PPP/RNBQKB1R w KQkq -',
+                     'full_algeb' => 'e7e6'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pppp2pp/4pp2/8/8/4PN2/PPPP1PPP/RNBQKB1R w KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/pppp2pp/4pp2/8/3N4/4P3/PPPP1PPP/RNBQKB1R b KQkq -',
+                     'full_algeb' => 'f3d4'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pppp2pp/4pp2/8/3N4/4P3/PPPP1PPP/RNBQKB1R b KQkq -',
+                     'fen_after_move' => 'rnbqkb1r/pppp2pp/4pp1n/8/3N4/4P3/PPPP1PPP/RNBQKB1R w KQkq -',
+                     'full_algeb' => 'g8h6'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkb1r/pppp2pp/4pp1n/8/3N4/4P3/PPPP1PPP/RNBQKB1R w KQkq -',
+                     'fen_after_move' => 'rnbqkb1r/pppp2pp/4pp1n/1N6/8/4P3/PPPP1PPP/RNBQKB1R b KQkq -',
+                     'full_algeb' => 'd4b5'
+                   }
+                 ];
+$self->{flip} = 0;

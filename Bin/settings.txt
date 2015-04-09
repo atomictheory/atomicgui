@@ -1,0 +1,18 @@
+$self->{settings} = {
+                      'cutoff' => '5000',
+                      'engine_depth' => '7',
+                      'max_depth' => '3',
+                      'depth_percent' => '70',
+                      'pulsar_on' => '0',
+                      'atomkraft_on' => '1',
+                      'show_pgn' => '0',
+                      'show_legal_moves' => undef,
+                      'pgn_dir' => 'C:/Unzip/Perl3/Pgn/',
+                      'book_dir' => 'C:/Unzip/Perl3/Pgn/game.eval.txt',
+                      'dump_depth' => '10',
+                      'update_status_bar' => undef,
+                      'multipv' => '1',
+                      'book_name' => 'game.eval.txt',
+                      'book_extension' => 'eval.txt',
+                      'minimax_after' => '5'
+                    };

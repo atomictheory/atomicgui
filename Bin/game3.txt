@@ -1,0 +1,2 @@
+$self->{moves} = [];
+$self->{flip} = 0;

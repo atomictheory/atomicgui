@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/lzpickY2"]
+[Date "2015.02.20"]
+[White "Flamenguista"]
+[Black "atomice"]
+[Result "0-1"]
+[WhiteElo "2128"]
+[BlackElo "2304"]
+[PlyCount "46"]
+[Variant "Atomic"]
+[TimeControl "300+30"]
+[ECO "?"]
+[Opening "?"]
+[Annotator "lichess.org"]
+
+1. Nf3 f6 2. e4 e6 3. Nd4 c6 4. Nb5 cxb5 5. Qh5+ g6 6. Qb5 Nc6 7. Qb6 Kf7 8. Qc7 Bb4 9. c3 Nd4 10. Na3 Nh6 11. h3 Nc2+ 12. Kd1 a6 13. Nb5 b6 14. Qd6 Bxd6 15. Nd6+ Kf8 16. Nxc8 Nd4 17. Ke1 Rc8 18. b4 Nf7 19. b5 a5 20. a4 Kg8 21. f4 Nc2+ 22. Kd1 Nd4 23. g4 Nb3 { White resigns } 0-1

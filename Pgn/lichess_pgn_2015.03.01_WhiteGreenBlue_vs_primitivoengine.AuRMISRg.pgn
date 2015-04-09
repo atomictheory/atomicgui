@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/AuRMISRg"]
+[Date "2015.03.01"]
+[White "WhiteGreenBlue"]
+[Black "primitivoengine"]
+[Result "0-1"]
+[WhiteElo "1748"]
+[BlackElo "1982"]
+[PlyCount "35"]
+[Variant "Atomic"]
+[TimeControl "240+40"]
+[ECO "?"]
+[Opening "?"]
+[Annotator "lichess.org"]
+
+1. Nf3 f6 2. e3 e6 3. d4 d5 4. a3 Nh6 5. h3 Nc6 6. g4 Bd6 7. Ne5 Nxd4 8. Bb5+ c6 9. Bxc6 d4 10. Nc3 d3 11. Nb5 O-O 12. O-O dxc2 13. Rfd1 Qa5 14. Nd6 Qd5 15. Ne8 g6 16. e4 Qg5 17. Rd3 Qf4 18. f3 { White resigns } 0-1

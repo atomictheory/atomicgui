@@ -1,0 +1,2 @@
+del data\*.txt
+pause

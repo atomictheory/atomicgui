@@ -1,0 +1,2 @@
+$self->{book} = {};
+$self->{after_move_book} = {};
