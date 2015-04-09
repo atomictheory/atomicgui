@@ -1,0 +1,1 @@
+{"a7a5":{"orig_eval":"1245","comment":"...","visited":"1","fen_after":"rnbqkbnr/1ppppppp/8/p7/8/2N5/PPPPPPPP/R1BQKBNR w KQkq a6","eval":"1245"},"g8h6":{"comment":"?!","visited":"2","fen_after":"rnbqkb1r/pppppppp/7n/8/8/2N5/PPPPPPPP/R1BQKBNR w KQkq -"},"c7c6":{"comment":"..."}}

@@ -4426,11 +4426,7 @@ sub new
 		$self->{board_controls_frame}->Button(-text=>'-> FEN',-command=>[\&copy_fen,$self])->pack(%button_pack_options,-side=>'left');
 		$self->{board_controls_frame}->Button(-text=>'Reset',-command=>[\&reset_game,$self])->pack(%button_pack_options,-side=>'left');
 		
-		$self->{legal_moves_frame}=$mw->Frame(-borderwidth=>'2',-relief=>'raised',-padx=>3)->grid(-row=>0,-column=>1);
-		
-		$self->{legal_moves_text}=$self->{legal_moves_frame}->Scrolled('Text',-scrollbars=>'e',-width=>12,-height=>41,-insertontime=>0)->pack();
-		
-		$self->{save_load_frame}=$mw->Frame(-borderwidth=>'2',-relief=>'raised',-padx=>3)->grid(-row=>0,-column=>2);
+		$self->{save_load_frame}=$mw->Frame(-borderwidth=>'2',-relief=>'raised',-padx=>3)->grid(-row=>0,-column=>1);
 		
 		$self->{pgn_frame}=$self->{save_load_frame}->Frame(-borderwidth=>'2',-relief=>'raised',-padx=>3,-pady=>3)->pack;
 		
@@ -4466,6 +4462,10 @@ sub new
 			$self->{"save_".$i."_button"}=$self->{save_frame}->Button(-text=>"Save $i",-command=>[\&save_i,$self,$i])->pack;
 			$self->{"load_".$i."_button"}=$self->{load_frame}->Button(-text=>"Load $i",-command=>[\&load_i,$self,$i])->pack;
 		}
+		
+		$self->{legal_moves_frame}=$mw->Frame(-borderwidth=>'2',-relief=>'raised',-padx=>3)->grid(-row=>0,-column=>2);
+		
+		$self->{legal_moves_text}=$self->{legal_moves_frame}->Scrolled('Text',-scrollbars=>'e',-width=>12,-height=>41,-insertontime=>0)->pack();
 		
 		$self->{book_frame}=$mw->Frame(-borderwidth=>'2',-relief=>'raised')->grid(-row=>0,-column=>3,-padx=>3);
 		
@@ -4633,7 +4633,7 @@ use Tk;
 
 my $mw = new MainWindow( -title => "Atomic Chess" );
 
-$mw->geometry("490x680+0+0");
+$mw->geometry("615x680+0+0");
 
 my $game=new Game($mw);
 

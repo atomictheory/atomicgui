@@ -1,2 +1,13 @@
-$self->{moves} = [];
-$self->{flip} = 0;
+$self->{moves} = [
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -',
+                     'fen_after_move' => 'rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq -',
+                     'full_algeb' => 'b1c3'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq -',
+                     'fen_after_move' => 'rnbqkb1r/pppppppp/7n/8/8/2N5/PPPPPPPP/R1BQKBNR w KQkq -',
+                     'full_algeb' => 'g8h6'
+                   }
+                 ];
+$self->{flip} = 1;
