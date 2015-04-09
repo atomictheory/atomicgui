@@ -1,1 +1,1 @@
-{"f6e5":{"comment":"?!","fen_after":"rnbqkbnr/ppp1p1pp/8/3p4/8/4P3/PPPP1PPP/RNBQKB1R w KQkq -","visited":6},"c8g4":{"comment":"?!","fen_after":"rn1qkbnr/ppp1p1pp/5p2/3pN3/6b1/4P3/PPPP1PPP/RNBQKB1R w KQkq -","visited":3}}
+{"f6e5":{"comment":"?!","visited":6,"fen_after":"rnbqkbnr/ppp1p1pp/8/3p4/8/4P3/PPPP1PPP/RNBQKB1R w KQkq -"},"c8g4":{"comment":"?!","visited":3,"fen_after":"rn1qkbnr/ppp1p1pp/5p2/3pN3/6b1/4P3/PPPP1PPP/RNBQKB1R w KQkq -"}}
