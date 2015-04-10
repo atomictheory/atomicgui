@@ -2709,8 +2709,11 @@ sub move_made
 	
 	my $fen=$self->{board}->report_fen(1);
 	
-	$CLIP->Set($fen);
-	$wq->enqueue("f\n");
+	#$CLIP->Set($fen);
+	#$wq->enqueue("f\n");
+	
+	my $command="ff$fen\n";
+	$wq->enqueue($command);
 	
 	##################################
 	
