@@ -113,6 +113,16 @@ $self->{moves} = [
                      'fen_before_move' => '3r1bnr/1p3k1p/5pp1/8/8/4P3/PPPB1PPP/RN2K2R w KQ -',
                      'fen_after_move' => '3r1bnr/1p3k1p/5pp1/8/8/2B1P3/PPP2PPP/RN2K2R b KQ -',
                      'full_algeb' => 'd2c3'
+                   },
+                   {
+                     'fen_before_move' => '3r1bnr/1p3k1p/5pp1/8/8/2B1P3/PPP2PPP/RN2K2R b KQ -',
+                     'fen_after_move' => '3r1bnr/1p3k1p/6p1/5p2/8/2B1P3/PPP2PPP/RN2K2R w KQ -',
+                     'full_algeb' => 'f6f5'
+                   },
+                   {
+                     'fen_before_move' => '3r1bnr/1p3k1p/6p1/5p2/8/2B1P3/PPP2PPP/RN2K2R w KQ -',
+                     'fen_after_move' => '3r1bnr/1p3k1p/6p1/5p2/8/2B1P3/PPP2PPP/RN3RK1 b - -',
+                     'full_algeb' => 'e1g1'
                    }
                  ];
 $self->{flip} = 0;
