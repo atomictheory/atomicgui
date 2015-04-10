@@ -1,18 +1,18 @@
 $self->{settings} = {
                       'cutoff' => '5000',
-                      'depth_percent' => '70',
-                      'max_depth' => '3',
                       'engine_depth' => '7',
-                      'atomkraft_on' => '1',
+                      'max_depth' => '3',
+                      'depth_percent' => '70',
                       'pulsar_on' => '0',
+                      'atomkraft_on' => '1',
                       'show_pgn' => '0',
                       'show_legal_moves' => undef,
                       'pgn_dir' => 'C:/Unzip/Perl3/Pgn/',
                       'book_dir' => 'C:/Unzip/Perl3/Pgn/game.eval.txt',
                       'dump_depth' => '10',
                       'update_status_bar' => undef,
-                      'book_extension' => 'eval.txt',
-                      'book_name' => 'game.eval.txt',
                       'multipv' => '1',
+                      'book_name' => 'game.eval.txt',
+                      'book_extension' => 'eval.txt',
                       'minimax_after' => '5'
                     };

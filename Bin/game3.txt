@@ -18,6 +18,11 @@ $self->{moves} = [
                      'fen_before_move' => 'rnbqkb1r/pppppppp/7n/8/8/2N4P/PPPPPPP1/R1BQKBNR b KQkq -',
                      'fen_after_move' => 'rnbqkb1r/pppp1ppp/4p2n/8/8/2N4P/PPPPPPP1/R1BQKBNR w KQkq -',
                      'full_algeb' => 'e7e6'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkb1r/pppp1ppp/4p2n/8/8/2N4P/PPPPPPP1/R1BQKBNR w KQkq -',
+                     'fen_after_move' => 'rnbqkb1r/pppp1ppp/4p2n/8/8/2N1P2P/PPPP1PP1/R1BQKBNR b KQkq -',
+                     'full_algeb' => 'e2e3'
                    }
                  ];
 $self->{flip} = 1;

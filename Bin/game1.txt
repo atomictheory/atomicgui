@@ -123,6 +123,11 @@ $self->{moves} = [
                      'fen_before_move' => '3r1bnr/1p3k1p/6p1/5p2/8/2B1P3/PPP2PPP/RN2K2R w KQ -',
                      'fen_after_move' => '3r1bnr/1p3k1p/6p1/5p2/8/2B1P3/PPP2PPP/RN3RK1 b - -',
                      'full_algeb' => 'e1g1'
+                   },
+                   {
+                     'fen_before_move' => '3r1bnr/1p3k1p/6p1/5p2/8/2B1P3/PPP2PPP/RN3RK1 b - -',
+                     'fen_after_move' => '3r2nr/1p3k1p/3b2p1/5p2/8/2B1P3/PPP2PPP/RN3RK1 w - -',
+                     'full_algeb' => 'f8d6'
                    }
                  ];
 $self->{flip} = 0;
