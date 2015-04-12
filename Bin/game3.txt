@@ -23,6 +23,41 @@ $self->{moves} = [
                      'fen_before_move' => 'rnbqkb1r/pppp1ppp/4p2n/8/8/2N4P/PPPPPPP1/R1BQKBNR w KQkq -',
                      'fen_after_move' => 'rnbqkb1r/pppp1ppp/4p2n/8/8/2N1P2P/PPPP1PP1/R1BQKBNR b KQkq -',
                      'full_algeb' => 'e2e3'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkb1r/pppp1ppp/4p2n/8/8/2N1P2P/PPPP1PP1/R1BQKBNR b KQkq -',
+                     'fen_after_move' => 'rnbqk2r/pppp1ppp/4p2n/8/1b6/2N1P2P/PPPP1PP1/R1BQKBNR w KQkq -',
+                     'full_algeb' => 'f8b4'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqk2r/pppp1ppp/4p2n/8/1b6/2N1P2P/PPPP1PP1/R1BQKBNR w KQkq -',
+                     'fen_after_move' => 'rnbqk2r/pppp1ppp/4p2n/8/1b6/2NBP2P/PPPP1PP1/R1BQK1NR b KQkq -',
+                     'full_algeb' => 'f1d3'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqk2r/pppp1ppp/4p2n/8/1b6/2NBP2P/PPPP1PP1/R1BQK1NR b KQkq -',
+                     'fen_after_move' => 'rnbqk2r/pppp1ppp/4p3/5n2/1b6/2NBP2P/PPPP1PP1/R1BQK1NR w KQkq -',
+                     'full_algeb' => 'h6f5'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqk2r/pppp1ppp/4p3/5n2/1b6/2NBP2P/PPPP1PP1/R1BQK1NR w KQkq -',
+                     'fen_after_move' => 'rnbqk2r/pppp1ppp/4p3/5n1Q/1b6/2NBP2P/PPPP1PP1/R1B1K1NR b KQkq -',
+                     'full_algeb' => 'd1h5'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqk2r/pppp1ppp/4p3/5n1Q/1b6/2NBP2P/PPPP1PP1/R1B1K1NR b KQkq -',
+                     'fen_after_move' => 'rnbqk2r/pppp1p1p/4p1p1/5n1Q/1b6/2NBP2P/PPPP1PP1/R1B1K1NR w KQkq -',
+                     'full_algeb' => 'g7g6'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqk2r/pppp1p1p/4p1p1/5n1Q/1b6/2NBP2P/PPPP1PP1/R1B1K1NR w KQkq -',
+                     'fen_after_move' => 'rnbqk2r/pppp1p1p/4p1p1/1B3n1Q/1b6/2N1P2P/PPPP1PP1/R1B1K1NR b KQkq -',
+                     'full_algeb' => 'd3b5'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqk2r/pppp1p1p/4p1p1/1B3n1Q/1b6/2N1P2P/PPPP1PP1/R1B1K1NR b KQkq -',
+                     'fen_after_move' => 'r1bqk2r/pppp1p1p/2n1p1p1/1B3n1Q/1b6/2N1P2P/PPPP1PP1/R1B1K1NR w KQkq -',
+                     'full_algeb' => 'b8c6'
                    }
                  ];
 $self->{flip} = 1;

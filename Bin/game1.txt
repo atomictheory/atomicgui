@@ -128,6 +128,36 @@ $self->{moves} = [
                      'fen_before_move' => '3r1bnr/1p3k1p/6p1/5p2/8/2B1P3/PPP2PPP/RN3RK1 b - -',
                      'fen_after_move' => '3r2nr/1p3k1p/3b2p1/5p2/8/2B1P3/PPP2PPP/RN3RK1 w - -',
                      'full_algeb' => 'f8d6'
+                   },
+                   {
+                     'fen_before_move' => '3r2nr/1p3k1p/3b2p1/5p2/8/2B1P3/PPP2PPP/RN3RK1 w - -',
+                     'fen_after_move' => '3r2nr/1p3k1p/3b2p1/5p2/5P2/2B1P3/PPP3PP/RN3RK1 b - f3',
+                     'full_algeb' => 'f2f4'
+                   },
+                   {
+                     'fen_before_move' => '3r2nr/1p3k1p/3b2p1/5p2/5P2/2B1P3/PPP3PP/RN3RK1 b - f3',
+                     'fen_after_move' => '3r2nr/1p3k1p/3b4/5pp1/5P2/2B1P3/PPP3PP/RN3RK1 w - -',
+                     'full_algeb' => 'g6g5'
+                   },
+                   {
+                     'fen_before_move' => '3r2nr/1p3k1p/3b4/5pp1/5P2/2B1P3/PPP3PP/RN3RK1 w - -',
+                     'fen_after_move' => '3r4/1p3k1p/3b4/5pp1/5P2/4P3/PPP3PP/RN3RK1 b - -',
+                     'full_algeb' => 'c3h8'
+                   },
+                   {
+                     'fen_before_move' => '3r4/1p3k1p/3b4/5pp1/5P2/4P3/PPP3PP/RN3RK1 b - -',
+                     'fen_after_move' => '3r4/1p3k1p/3b4/5p2/8/4P3/PPP3PP/RN3RK1 w - -',
+                     'full_algeb' => 'g5f4'
+                   },
+                   {
+                     'fen_before_move' => '3r4/1p3k1p/3b4/5p2/8/4P3/PPP3PP/RN3RK1 w - -',
+                     'fen_after_move' => '3r4/1p3k1p/3b4/5p2/8/4P1P1/PPP4P/RN3RK1 b - -',
+                     'full_algeb' => 'g2g3'
+                   },
+                   {
+                     'fen_before_move' => '3r4/1p3k1p/3b4/5p2/8/4P1P1/PPP4P/RN3RK1 b - -',
+                     'fen_after_move' => '6r1/1p3k1p/3b4/5p2/8/4P1P1/PPP4P/RN3RK1 w - -',
+                     'full_algeb' => 'd8g8'
                    }
                  ];
 $self->{flip} = 0;
