@@ -1,0 +1,1 @@
+{"a8c8":{"comment":"...","visited":"1","fen_after":"2rk1N1r/pp4p1/3pp2p/1B3p2/2P1nP2/4P3/PP4P1/R4K2 w - -"},"e4d2":{"comment":"...","fen_after":"r2k1N1r/pp4p1/3pp2p/1B3p2/2P2P2/4P3/PP1n2P1/R4K2 w - -","visited":"1"},"h6h5":{"comment":"..."},"h8f8":{"comment":"...","visited":"2","fen_after":"r2k4/pp4p1/3pp2p/1B3p2/2P1nP2/4P3/PP4P1/R4K2 w - -"}}

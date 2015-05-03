@@ -1156,6 +1156,54 @@ sub make_move
 	
 }
 
+sub is_adjacent
+{
+
+	my $self=shift;
+	
+	my $color=shift;
+	
+	my $pos_king=shift;
+	
+	my $test_king=$color==1?'K':'k';
+	
+	my $ij_king=pos_to_ij($pos_king);
+	
+	for(my $i=-1;$i<=1;$i++)
+	{
+		for(my $j=-1;$j<=1;$j++)
+		{
+		
+			if(!(($i==0)&&($j==0)))
+			{
+			
+			
+				my $test_pos=ij_to_pos($ij_king->{i}+$i,$ij_king->{j}+$j);
+				
+				if($test_pos>=0)
+				{
+				
+					my $test_piece=substr($self->{rep},$test_pos,1);
+					
+					if($test_piece eq $test_king)
+					{
+					
+						return 1;
+					
+					}
+					
+				}
+				
+			}
+			
+		}
+	
+	}
+	
+	return 0;
+
+}
+
 sub is_in_check
 {	
 
@@ -1164,6 +1212,11 @@ sub is_in_check
 	my $color=shift;
 	
 	my $pos_king=shift;
+	
+	if($self->is_adjacent($color,$pos_king))
+	{
+		return 0;
+	}
 	
 	my @check_test_pieces=split //,$check_test_pieces->{$color};
 	

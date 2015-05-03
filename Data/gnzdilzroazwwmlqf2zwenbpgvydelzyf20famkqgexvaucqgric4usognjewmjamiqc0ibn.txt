@@ -1,1 +1,1 @@
-{"d8g8":{"comment":"...","visited":"1","fen_after":"6r1/1p3k1p/3b4/5p2/8/4P1P1/PPP4P/RN3RK1 w - -"},"d6e5":{"comment":"..."}}
+{"d8g8":{"comment":"...","fen_after":"6r1/1p3k1p/3b4/5p2/8/4P1P1/PPP4P/RN3RK1 w - -","visited":"1"},"d6e5":{"comment":"..."}}

@@ -23,6 +23,226 @@ $self->{moves} = [
                      'fen_before_move' => 'rnbqkbnr/ppp1p1pp/5p2/3p4/8/4PN2/PPPP1PPP/RNBQKB1R w KQkq d6',
                      'fen_after_move' => 'rnbqkbnr/ppp1p1pp/5p2/3pN3/8/4P3/PPPP1PPP/RNBQKB1R b KQkq -',
                      'full_algeb' => 'f3e5'
+                   },
+                   {
+                     'fen_before_move' => 'rnbqkbnr/ppp1p1pp/5p2/3pN3/8/4P3/PPPP1PPP/RNBQKB1R b KQkq -',
+                     'fen_after_move' => 'rn1qkbnr/ppp1p1pp/5p2/3pN3/6b1/4P3/PPPP1PPP/RNBQKB1R w KQkq -',
+                     'full_algeb' => 'c8g4'
+                   },
+                   {
+                     'fen_before_move' => 'rn1qkbnr/ppp1p1pp/5p2/3pN3/6b1/4P3/PPPP1PPP/RNBQKB1R w KQkq -',
+                     'fen_after_move' => 'rn1qkbnr/ppp1p1pp/5p2/3pN3/6b1/4PQ2/PPPP1PPP/RNB1KB1R b KQkq -',
+                     'full_algeb' => 'd1f3'
+                   },
+                   {
+                     'fen_before_move' => 'rn1qkbnr/ppp1p1pp/5p2/3pN3/6b1/4PQ2/PPPP1PPP/RNB1KB1R b KQkq -',
+                     'fen_after_move' => 'rn1qkbnr/ppp1p2p/5p2/3pN1p1/6b1/4PQ2/PPPP1PPP/RNB1KB1R w KQkq g6',
+                     'full_algeb' => 'g7g5'
+                   },
+                   {
+                     'fen_before_move' => 'rn1qkbnr/ppp1p2p/5p2/3pN1p1/6b1/4PQ2/PPPP1PPP/RNB1KB1R w KQkq g6',
+                     'fen_after_move' => 'rn1qkbnr/ppp1pN1p/5p2/3p2p1/6b1/4PQ2/PPPP1PPP/RNB1KB1R b KQkq -',
+                     'full_algeb' => 'e5f7'
+                   },
+                   {
+                     'fen_before_move' => 'rn1qkbnr/ppp1pN1p/5p2/3p2p1/6b1/4PQ2/PPPP1PPP/RNB1KB1R b KQkq -',
+                     'fen_after_move' => 'rnq1kbnr/ppp1pN1p/5p2/3p2p1/6b1/4PQ2/PPPP1PPP/RNB1KB1R w KQkq -',
+                     'full_algeb' => 'd8c8'
+                   },
+                   {
+                     'fen_before_move' => 'rnq1kbnr/ppp1pN1p/5p2/3p2p1/6b1/4PQ2/PPPP1PPP/RNB1KB1R w KQkq -',
+                     'fen_after_move' => 'rnq1kbnr/ppp1pN1p/5p2/1B1p2p1/6b1/4PQ2/PPPP1PPP/RNB1K2R b KQkq -',
+                     'full_algeb' => 'f1b5'
+                   },
+                   {
+                     'fen_before_move' => 'rnq1kbnr/ppp1pN1p/5p2/1B1p2p1/6b1/4PQ2/PPPP1PPP/RNB1K2R b KQkq -',
+                     'fen_after_move' => 'rnq1kbnr/pp2pN1p/2p2p2/1B1p2p1/6b1/4PQ2/PPPP1PPP/RNB1K2R w KQkq -',
+                     'full_algeb' => 'c7c6'
+                   },
+                   {
+                     'fen_before_move' => 'rnq1kbnr/pp2pN1p/2p2p2/1B1p2p1/6b1/4PQ2/PPPP1PPP/RNB1K2R w KQkq -',
+                     'fen_after_move' => 'rnqNkbnr/pp2p2p/2p2p2/1B1p2p1/6b1/4PQ2/PPPP1PPP/RNB1K2R b KQkq -',
+                     'full_algeb' => 'f7d8'
+                   },
+                   {
+                     'fen_before_move' => 'rnqNkbnr/pp2p2p/2p2p2/1B1p2p1/6b1/4PQ2/PPPP1PPP/RNB1K2R b KQkq -',
+                     'fen_after_move' => 'rnqNkbnr/p3p2p/1pp2p2/1B1p2p1/6b1/4PQ2/PPPP1PPP/RNB1K2R w KQkq -',
+                     'full_algeb' => 'b7b6'
+                   },
+                   {
+                     'fen_before_move' => 'rnqNkbnr/p3p2p/1pp2p2/1B1p2p1/6b1/4PQ2/PPPP1PPP/RNB1K2R w KQkq -',
+                     'fen_after_move' => 'rnq1kbnr/p3p2p/1pp1Np2/1B1p2p1/6b1/4PQ2/PPPP1PPP/RNB1K2R b KQkq -',
+                     'full_algeb' => 'd8e6'
+                   },
+                   {
+                     'fen_before_move' => 'rnq1kbnr/p3p2p/1pp1Np2/1B1p2p1/6b1/4PQ2/PPPP1PPP/RNB1K2R b KQkq -',
+                     'fen_after_move' => 'rnq1k1nr/p3p2p/1pp1Np1b/1B1p2p1/6b1/4PQ2/PPPP1PPP/RNB1K2R w KQkq -',
+                     'full_algeb' => 'f8h6'
+                   },
+                   {
+                     'fen_before_move' => 'rnq1k1nr/p3p2p/1pp1Np1b/1B1p2p1/6b1/4PQ2/PPPP1PPP/RNB1K2R w KQkq -',
+                     'fen_after_move' => 'rnq1k1nr/p3p2p/1pp1Np1b/1B1p2p1/6b1/4P1Q1/PPPP1PPP/RNB1K2R b KQkq -',
+                     'full_algeb' => 'f3g3'
+                   },
+                   {
+                     'fen_before_move' => 'rnq1k1nr/p3p2p/1pp1Np1b/1B1p2p1/6b1/4P1Q1/PPPP1PPP/RNB1K2R b KQkq -',
+                     'fen_after_move' => 'r1q1k1nr/p3p2p/npp1Np1b/1B1p2p1/6b1/4P1Q1/PPPP1PPP/RNB1K2R w KQkq -',
+                     'full_algeb' => 'b8a6'
+                   },
+                   {
+                     'fen_before_move' => 'r1q1k1nr/p3p2p/npp1Np1b/1B1p2p1/6b1/4P1Q1/PPPP1PPP/RNB1K2R w KQkq -',
+                     'fen_after_move' => 'r1q1k1nr/p3p2p/npp1Np1b/3p2p1/6b1/3BP1Q1/PPPP1PPP/RNB1K2R b KQkq -',
+                     'full_algeb' => 'b5d3'
+                   },
+                   {
+                     'fen_before_move' => 'r1q1k1nr/p3p2p/npp1Np1b/3p2p1/6b1/3BP1Q1/PPPP1PPP/RNB1K2R b KQkq -',
+                     'fen_after_move' => 'r1q1k1nr/p3p2p/npp1Np1b/3p1bp1/8/3BP1Q1/PPPP1PPP/RNB1K2R w KQkq -',
+                     'full_algeb' => 'g4f5'
+                   },
+                   {
+                     'fen_before_move' => 'r1q1k1nr/p3p2p/npp1Np1b/3p1bp1/8/3BP1Q1/PPPP1PPP/RNB1K2R w KQkq -',
+                     'fen_after_move' => 'r1q1k1nr/p3p1Np/npp2p1b/3p1bp1/8/3BP1Q1/PPPP1PPP/RNB1K2R b KQkq -',
+                     'full_algeb' => 'e6g7'
+                   },
+                   {
+                     'fen_before_move' => 'r1q1k1nr/p3p1Np/npp2p1b/3p1bp1/8/3BP1Q1/PPPP1PPP/RNB1K2R b KQkq -',
+                     'fen_after_move' => 'r1q2knr/p3p1Np/npp2p1b/3p1bp1/8/3BP1Q1/PPPP1PPP/RNB1K2R w KQ -',
+                     'full_algeb' => 'e8f8'
+                   },
+                   {
+                     'fen_before_move' => 'r1q2knr/p3p1Np/npp2p1b/3p1bp1/8/3BP1Q1/PPPP1PPP/RNB1K2R w KQ -',
+                     'fen_after_move' => 'r1q2knr/p1Q1p1Np/npp2p1b/3p1bp1/8/3BP3/PPPP1PPP/RNB1K2R b KQ -',
+                     'full_algeb' => 'g3c7'
+                   },
+                   {
+                     'fen_before_move' => 'r1q2knr/p1Q1p1Np/npp2p1b/3p1bp1/8/3BP3/PPPP1PPP/RNB1K2R b KQ -',
+                     'fen_after_move' => 'r4knr/p3p1Np/npp2p1b/3p1bp1/8/3BP3/PPPP1PPP/RNB1K2R w KQ -',
+                     'full_algeb' => 'c8c7'
+                   },
+                   {
+                     'fen_before_move' => 'r4knr/p3p1Np/npp2p1b/3p1bp1/8/3BP3/PPPP1PPP/RNB1K2R w KQ -',
+                     'fen_after_move' => 'r4knr/p3p2p/npp1Np1b/3p1bp1/8/3BP3/PPPP1PPP/RNB1K2R b KQ -',
+                     'full_algeb' => 'g7e6'
+                   },
+                   {
+                     'fen_before_move' => 'r4knr/p3p2p/npp1Np1b/3p1bp1/8/3BP3/PPPP1PPP/RNB1K2R b KQ -',
+                     'fen_after_move' => 'r3k1nr/p3p2p/npp1Np1b/3p1bp1/8/3BP3/PPPP1PPP/RNB1K2R w KQ -',
+                     'full_algeb' => 'f8e8'
+                   },
+                   {
+                     'fen_before_move' => 'r3k1nr/p3p2p/npp1Np1b/3p1bp1/8/3BP3/PPPP1PPP/RNB1K2R w KQ -',
+                     'fen_after_move' => 'r3k1nr/p3p2p/npp1Np1b/3p1bp1/1P6/3BP3/P1PP1PPP/RNB1K2R b KQ b3',
+                     'full_algeb' => 'b2b4'
+                   },
+                   {
+                     'fen_before_move' => 'r3k1nr/p3p2p/npp1Np1b/3p1bp1/1P6/3BP3/P1PP1PPP/RNB1K2R b KQ b3',
+                     'fen_after_move' => 'r3k1nr/p3p2p/npp1Np1b/3p1b2/1P4p1/3BP3/P1PP1PPP/RNB1K2R w KQ -',
+                     'full_algeb' => 'g5g4'
+                   },
+                   {
+                     'fen_before_move' => 'r3k1nr/p3p2p/npp1Np1b/3p1b2/1P4p1/3BP3/P1PP1PPP/RNB1K2R w KQ -',
+                     'fen_after_move' => 'r3k1nr/p3p2p/npp2p1b/3p1bN1/1P4p1/3BP3/P1PP1PPP/RNB1K2R b KQ -',
+                     'full_algeb' => 'e6g5'
+                   },
+                   {
+                     'fen_before_move' => 'r3k1nr/p3p2p/npp2p1b/3p1bN1/1P4p1/3BP3/P1PP1PPP/RNB1K2R b KQ -',
+                     'fen_after_move' => 'r3k1nr/p3p2p/npp2p1b/5bN1/1P1p2p1/3BP3/P1PP1PPP/RNB1K2R w KQ -',
+                     'full_algeb' => 'd5d4'
+                   },
+                   {
+                     'fen_before_move' => 'r3k1nr/p3p2p/npp2p1b/5bN1/1P1p2p1/3BP3/P1PP1PPP/RNB1K2R w KQ -',
+                     'fen_after_move' => 'r3k3/p3p3/npp2p2/5b2/1P1p2p1/3BP3/P1PP1PPP/RNB1K2R b KQ -',
+                     'full_algeb' => 'g5h7'
+                   },
+                   {
+                     'fen_before_move' => 'r3k3/p3p3/npp2p2/5b2/1P1p2p1/3BP3/P1PP1PPP/RNB1K2R b KQ -',
+                     'fen_after_move' => 'r3k3/p3p3/npp2p2/5b2/1P4p1/8/P1PP1PPP/RNB1K2R w KQ -',
+                     'full_algeb' => 'd4e3'
+                   },
+                   {
+                     'fen_before_move' => 'r3k3/p3p3/npp2p2/5b2/1P4p1/8/P1PP1PPP/RNB1K2R w KQ -',
+                     'fen_after_move' => 'r3k3/p3p3/npp2p2/5b2/1P4p1/3P4/P1P2PPP/RNB1K2R b KQ -',
+                     'full_algeb' => 'd2d3'
+                   },
+                   {
+                     'fen_before_move' => 'r3k3/p3p3/npp2p2/5b2/1P4p1/3P4/P1P2PPP/RNB1K2R b KQ -',
+                     'fen_after_move' => '3rk3/p3p3/npp2p2/5b2/1P4p1/3P4/P1P2PPP/RNB1K2R w KQ -',
+                     'full_algeb' => 'a8d8'
+                   },
+                   {
+                     'fen_before_move' => '3rk3/p3p3/npp2p2/5b2/1P4p1/3P4/P1P2PPP/RNB1K2R w KQ -',
+                     'fen_after_move' => '3rk3/p3p3/npp2p1B/5b2/1P4p1/3P4/P1P2PPP/RN2K2R b KQ -',
+                     'full_algeb' => 'c1h6'
+                   },
+                   {
+                     'fen_before_move' => '3rk3/p3p3/npp2p1B/5b2/1P4p1/3P4/P1P2PPP/RN2K2R b KQ -',
+                     'fen_after_move' => '3rk3/p3p3/npp2p1B/8/1P2b1p1/3P4/P1P2PPP/RN2K2R w KQ -',
+                     'full_algeb' => 'f5e4'
+                   },
+                   {
+                     'fen_before_move' => '3rk3/p3p3/npp2p1B/8/1P2b1p1/3P4/P1P2PPP/RN2K2R w KQ -',
+                     'fen_after_move' => '3rkB2/p3p3/npp2p2/8/1P2b1p1/3P4/P1P2PPP/RN2K2R b KQ -',
+                     'full_algeb' => 'h6f8'
+                   },
+                   {
+                     'fen_before_move' => '3rkB2/p3p3/npp2p2/8/1P2b1p1/3P4/P1P2PPP/RN2K2R b KQ -',
+                     'fen_after_move' => '3rkB2/p7/npp1pp2/8/1P2b1p1/3P4/P1P2PPP/RN2K2R w KQ -',
+                     'full_algeb' => 'e7e6'
+                   },
+                   {
+                     'fen_before_move' => '3rkB2/p7/npp1pp2/8/1P2b1p1/3P4/P1P2PPP/RN2K2R w KQ -',
+                     'fen_after_move' => '3rk3/p3B3/npp1pp2/8/1P2b1p1/3P4/P1P2PPP/RN2K2R b KQ -',
+                     'full_algeb' => 'f8e7'
+                   },
+                   {
+                     'fen_before_move' => '3rk3/p3B3/npp1pp2/8/1P2b1p1/3P4/P1P2PPP/RN2K2R b KQ -',
+                     'fen_after_move' => '4k3/p2rB3/npp1pp2/8/1P2b1p1/3P4/P1P2PPP/RN2K2R w KQ -',
+                     'full_algeb' => 'd8d7'
+                   },
+                   {
+                     'fen_before_move' => '4k3/p2rB3/npp1pp2/8/1P2b1p1/3P4/P1P2PPP/RN2K2R w KQ -',
+                     'fen_after_move' => '4k3/p2rB3/npp1pp2/8/1P2b1p1/3P1P2/P1P3PP/RN2K2R b KQ -',
+                     'full_algeb' => 'f2f3'
+                   },
+                   {
+                     'fen_before_move' => '4k3/p2rB3/npp1pp2/8/1P2b1p1/3P1P2/P1P3PP/RN2K2R b KQ -',
+                     'fen_after_move' => '4k3/p2rB2b/npp1pp2/8/1P4p1/3P1P2/P1P3PP/RN2K2R w KQ -',
+                     'full_algeb' => 'e4h7'
+                   },
+                   {
+                     'fen_before_move' => '4k3/p2rB2b/npp1pp2/8/1P4p1/3P1P2/P1P3PP/RN2K2R w KQ -',
+                     'fen_after_move' => '4k3/p2rB2b/npp1pp2/1P6/6p1/3P1P2/P1P3PP/RN2K2R b KQ -',
+                     'full_algeb' => 'b4b5'
+                   },
+                   {
+                     'fen_before_move' => '4k3/p2rB2b/npp1pp2/1P6/6p1/3P1P2/P1P3PP/RN2K2R b KQ -',
+                     'fen_after_move' => '4k3/p2rB2b/1pp1pp2/1P6/1n4p1/3P1P2/P1P3PP/RN2K2R w KQ -',
+                     'full_algeb' => 'a6b4'
+                   },
+                   {
+                     'fen_before_move' => '4k3/p2rB2b/1pp1pp2/1P6/1n4p1/3P1P2/P1P3PP/RN2K2R w KQ -',
+                     'fen_after_move' => '4k3/p2rB2b/1pp1pp2/1P6/1n4p1/P2P1P2/2P3PP/RN2K2R b KQ -',
+                     'full_algeb' => 'a2a3'
+                   },
+                   {
+                     'fen_before_move' => '4k3/p2rB2b/1pp1pp2/1P6/1n4p1/P2P1P2/2P3PP/RN2K2R b KQ -',
+                     'fen_after_move' => '4k3/p2rB2b/1p2pp2/1Pp5/1n4p1/P2P1P2/2P3PP/RN2K2R w KQ -',
+                     'full_algeb' => 'c6c5'
+                   },
+                   {
+                     'fen_before_move' => '4k3/p2rB2b/1p2pp2/1Pp5/1n4p1/P2P1P2/2P3PP/RN2K2R w KQ -',
+                     'fen_after_move' => '4k3/p2rB2b/1p2pp2/1Pp5/6p1/3P1P2/2P3PP/RN2K2R b KQ -',
+                     'full_algeb' => 'a3b4'
+                   },
+                   {
+                     'fen_before_move' => '4k3/p2rB2b/1p2pp2/1Pp5/6p1/3P1P2/2P3PP/RN2K2R b KQ -',
+                     'fen_after_move' => '4k3/p3B2b/1p2pp2/1Ppr4/6p1/3P1P2/2P3PP/RN2K2R w KQ -',
+                     'full_algeb' => 'd7d5'
+                   },
+                   {
+                     'fen_before_move' => '4k3/p3B2b/1p2pp2/1Ppr4/6p1/3P1P2/2P3PP/RN2K2R w KQ -',
+                     'fen_after_move' => '4k3/p6b/1p2pp2/1P6/6p1/3P1P2/2P3PP/RN2K2R b KQ -',
+                     'full_algeb' => 'e7c5'
                    }
                  ];
 $self->{flip} = '';
